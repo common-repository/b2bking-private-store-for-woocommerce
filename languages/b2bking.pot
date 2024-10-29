@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-22 20:00+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-b2bking-admin.php:83
+msgid "Settings"
+msgstr ""
+
+#: admin/class-b2bking-admin.php:86
+msgid "Get B2BKing"
+msgstr ""
+
+#: admin/class-b2bking-admin.php:143
+msgid ""
+"Warning: The plugin \"Private Store by B2BKing\" requires WooCommerce to be "
+"installed and activated."
+msgstr ""
+
+#: admin/class-b2bking-settings.php:33
+msgid "Hide prices to guests text"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:48
+msgid "What guests see when \"Hide prices to guests\" is enabled"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:49 public/class-b2bking-public.php:39
+msgid "Login to view prices"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:71
+msgid "Private Store"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:72 admin/class-b2bking-settings.php:94
+msgid "Hide prices & store"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:76
+msgid "Upgrade to B2BKing"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:77
+msgid "Get 137+ Premium Features"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:92
+msgid "Private Store for WooCommerce by B2BKing"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:102
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:105
+msgid "Plugin Status - options explained"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:106
+msgid "Guest Access Restriction - functionality explained"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:111
+msgid "Plugin Status"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:115
+msgid "Disabled"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:121
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:132
+msgid "Guest Access Restriction"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:138
+msgid "None"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:144
+msgid "Hide prices for guests"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:151
+msgid "Hide website & force login"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:169
+msgid "Get B2BKing - The Ultimate B2B & Wholesale Plugin for WooCommerce"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:171
+msgid "Get the #1 wholesale solution for WooCommerce"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:175
+msgid "Get B2BKing for the Premium Wholesale Store Experience"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:180
+msgid "Unlock all Pop-Up Templates"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:182
+msgid ""
+"Impress visitors with great website style and a fantastic-looking pop-up"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:189
+msgid "Unlock Auto-Generated Coupons"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:193
+msgid ""
+"Automatically generate powerful, unique, email-restricted coupons for each "
+"individual user"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:201
+msgid "Unlock Logo Customization"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:205
+msgid "Use your custom company logo and make the marketing campaign your own"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:214
+msgid "Unlock our Beautiful HTML Colorful Email Template"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:217
+msgid "Impress visitors with a stunning, professional-looking email"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:224
+msgid "Unlock MailChimp Integration"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:227
+msgid ""
+"Send users straight to your MailChimp lists. Build a powerful and relevant "
+"email newsletter list."
+msgstr ""
+
+#: admin/class-b2bking-settings.php:234
+msgid "Custom Triggers"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:237
+msgid "Display pop-ups wherever you want with custom triggers"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:244
+msgid "Use Powerful Claim Offer Limits"
+msgstr ""
+
+#: admin/class-b2bking-settings.php:247
+msgid ""
+"Prevent users from abusing the system with our Anti-Cheating Technology. "
+"Check IP and Cookies."
+msgstr ""
+
+#: admin/class-b2bking-settings.php:250
+msgid "Ready to get started?"
+msgstr ""

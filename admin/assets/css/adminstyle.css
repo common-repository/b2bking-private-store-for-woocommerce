@@ -1,0 +1,354 @@
+/**
+*
+* CSS File that styles the Admin Settings Panel of the Plugin
+* 
+* TABLE OF CONTENTS:
+* 1. Fonts
+* 2. General Styling
+* 3. WordPress Admin Dashboard Background
+* 4. Menu items
+* 5. Swing animation for icons
+* 6. Media Queries
+* 
+*/
+
+
+/* 1. Fonts */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 2. General Styling */
+#toplevel_page_b2bking img{
+  position: relative;
+  bottom: 2px;
+}
+.b2bking_spacer_10{
+    width: 10px;
+    display: inline-block;
+}
+a.b2bking_button_color_gold button {
+    min-height: 42px !important;
+}
+
+/* 3. WordPress Admin Dashboard Background (CSS file enqueued only in this plugin's specific admin slug) */
+.b2bking_button_color_gold button{
+   background:#dea320 !important;
+}
+.b2bking_button_color_gold button:hover{
+   background:#d78017 !important;
+}
+.b2bking_button_color_gold{
+  display: flex;
+  justify-content: center;
+}
+.b2bking_upgrade_icon{
+  margin-right: 0.6em !important;
+   min-width: 70px !important;
+   text-align: center;
+   display:flex !important;
+   justify-content: center;
+}
+ul.b2bking_upgrade_list {
+    list-style: square;
+    margin-left: 25px;
+}
+#wpcontent{
+	background-color: #313437;
+	padding:0px 35px 0px 35px;
+	min-height: 800px;
+}
+#wpfooter{
+	background-color: #313437;
+	position:unset;
+}
+#wpbody-content {
+    padding-bottom: 5px;
+}
+.form-table th{
+	padding: 20px 10px 20px 10px;
+}
+#b2bking_admin_form .checkbox input{
+	margin:0;
+}
+
+/* 4. Menu Items */
+/* !important needed to override Semantic UI Library */
+.b2bking_othersettings_margin{
+  margin-bottom: 50px;
+}
+.ui.menu .item.green.active{
+	color: #f0efec !important;
+	transition: all 0s;
+}
+.ui.menu .item.green:hover{
+	color: #eeedf2;
+}
+#b2bking_admin_menu .active .icon{
+    color: #dea320;
+}
+#b2bking_admin_menu .item{
+	transition: 0.2s all;
+}
+#b2bking_admin_menu .item::before{
+	background: rgba(119, 122, 125, 0.1);
+}
+.item .b2bking_menu_description{
+	color: #686573;
+	font-size: 12px;
+}
+.item.active .b2bking_menu_description{
+	color:#b8b6c3;
+}
+#b2bking_menu_logo{
+	width: 170px;
+	margin: 30px auto;
+	display: block;
+}
+#b2bking_admin_wrapper{
+	display:flex;
+	min-height: 500px;
+  margin-top: 30px;
+}
+#b2bking_admin_wrapper_import{
+  display:flex;
+  min-height: 450px;
+  margin-top: 30px;
+}
+#b2bking_download_products_button{
+  min-height: 36px;
+}
+#b2bking_tabs_wrapper{
+	display: inline-block;
+    width: 100%;
+}
+#b2bking_admin_menu{
+	display:inline-block;
+	vertical-align: top;
+	height:auto;
+	min-width: 225px;
+	width:21%;
+	border: 0;
+	border-radius: 5px 0px 0px 5px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.17);
+	background: linear-gradient(172deg, #15141b, #201e2e, #15141b)
+}
+#b2bking_admin_menu .active{
+	/* !important needed to override Semantic UI Library */
+	border-color: #d4d4d5 !important; 
+	box-shadow: 0 3px 6px rgba(0,0,0,.07);
+	border-top-width:0px;
+	background: #6c667d;
+}
+.ui.menu .item{
+	transition: all .1s ease-out;
+	color:#bcc0c7;
+	padding:20px;
+}
+.ui.menu .item>i.icon{
+	font-size: 22px;
+	display:inline-table;
+	position: relative;
+	top: 5px;
+	transition: 0.3s all;
+}
+#b2bking_admin_menu .item:hover .icon{
+
+	animation: swing 1s ease;
+	animation-iteration-count: 1;
+}
+#b2bking_admin_menu .item.active:hover .icon{
+	animation: none;
+	animation-iteration-count: 1;
+}
+#b2bking_admin_menu.ui.menu .item:hover{
+	background: rgba(108, 102, 125, 0.18);
+}
+#b2bking_admin_menu.ui.menu .item.active:hover{
+	background: #6c667d;
+}
+a.item:after {
+    content: "";
+    width: 0;
+    left:0;
+    top: 0;
+    position: absolute;
+    transition: 0.2s ease;
+    height: 3px;
+}
+a.item.active:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #dea320;
+}
+.ui.menu .item.teal:hover{
+	color: #00b5ad;
+}
+.ui.menu .item.pink:hover{
+	color: #e03997;
+}
+.ui.menu .item.red:hover{
+	color: #db2828;
+}
+.ui.menu .item.blue:hover{
+	color: #2185d0;
+}
+
+.ui.tab.segment{
+	border:0;
+	box-shadow: 0 3px 6px rgba(0,0,0,.07);
+	border-top: 1px;
+	border-radius: 0 5px 5px 0;
+	height:100%;
+}
+.b2bking_attached_content_wrapper{
+	transition: all .15s ease;
+}
+.b2bking_plugin_status_container{
+  padding: 10px;
+}
+.b2bking_settings_explained{
+  font-size: 12px;
+  font-style: italic;
+}
+label.b2bking_access_restriction_label {
+    font-weight: 600;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    display: block;
+}
+
+/* 5. Swing Animation for Icons */
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.swing {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing;
+}
+
+/* 6. Media Queries */
+@media screen and (max-width: 767px) { 
+  div#b2bking_admin_wrapper{
+    display: block;
+  }
+  div#b2bking_admin_menu{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,9 @@
+/* B2BKing icon */
+#toplevel_page_b2bking .wp-menu-image img{
+    position: relative;
+    bottom: 3px;
+    width: 15px !important;
+}
+.toplevel_page_b2bking #wpwrap {
+    background: #313437;
+}
